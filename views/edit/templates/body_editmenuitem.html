@@ -1,0 +1,22 @@
+<!-- BODY TEMPLATE -->
+<!-- body_editmenuitem.html -->
+<form method="POST" action="index.php?controller=Edit&action=Save">
+<tr>
+<td><input type="hidden" name="menuitemid" value="{menuitemid}">{menuitemid}</td>
+<td><textarea cols="35" rows="1" name="itemname">{itemname}</textarea></td>
+<td><textarea cols="55" rows="1" name="description">{description}</textarea></td>
+<td><input type="text" name="price" value="{price}"></td>
+<td><input type="text" name="servingsize" value="{servingsize}"></td>
+<td><input type="submit" value="UPDATE"></td>
+<td><a href="index.php?controller=Edit&action=Erase&id={menuitemid}">DELETE</a></td>
+</tr>
+</form>
+<!-- BODY TEMPLATE -->
+
+
+
+
+
+
+
+
